@@ -2,7 +2,15 @@
 <html>
 <head>
     <title>My Analytics Test Site</title>
-    <!-- You will paste your Google Analytics tag here later -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QF54MHDYM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8QF54MHDYM');
+    </script>
 </head>
 <body>
     <h1>Testing Google Analytics</h1>
